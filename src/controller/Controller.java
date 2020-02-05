@@ -80,12 +80,6 @@ public class Controller {
 					}
 					view.printMessage("Numero actual de elementos " + modelo.darTamano() + "\n---------");						
 					break;
-
-				case 5: 
-					view.printMessage("--------- \nContenido del Arreglo: ");
-					view.printModelo(modelo);
-					view.printMessage("Numero actual de elementos " + modelo.darTamano() + "\n---------");						
-					break;	
 					
 				case 6: 
 					view.printMessage("--------- \n Hasta pronto !! \n---------"); 
